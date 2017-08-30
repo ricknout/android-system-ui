@@ -20,7 +20,8 @@
                 android:resource="@xml/shortcuts" />
         </activity>
 
-        <activity android:name=".ShortcutActivity" />
+        <activity android:name=".ShortcutActivity"
+            android:label="@string/title_shortcut" />
 
     </application>
 

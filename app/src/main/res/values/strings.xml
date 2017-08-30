@@ -2,6 +2,8 @@
 
     <string name="app_name">Android System UI</string>
 
+    <string name="title_shortcut">Shortcut</string>
+
     <string name="shortcut_label_short_static">Static</string>
     <string name="shortcut_label_long_static">Static shortcut</string>
     <string name="shortcut_label_short_dynamic">Dynamic %d</string>
