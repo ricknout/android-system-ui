@@ -4,9 +4,20 @@
 
     <string name="title_shortcut">Shortcut</string>
 
+    <string name="button_enable">Add/enable dynamic shortcut</string>
+    <string name="button_disable">Disable dynamic shortcut</string>
+    <string name="button_remove">Remove dynamic shortcut</string>
+    <string name="button_pin">Pin dynamic shortcut</string>
+
+    <string name="toast_message_added">Added dynamic shortcut</string>
+    <string name="toast_message_disabled">Disabled dynamic shortcut</string>
+    <string name="toast_message_removed">Removed dynamic shortcut</string>
+    <string name="toast_error_pinning">Launcher does not support shortcut pinning</string>
+
     <string name="shortcut_label_short_static">Static</string>
     <string name="shortcut_label_long_static">Static shortcut</string>
-    <string name="shortcut_label_short_dynamic">Dynamic %d</string>
-    <string name="shortcut_label_long_dynamic">Dynamic shortcut %d</string>
+    <string name="shortcut_label_short_dynamic">Dynamic</string>
+    <string name="shortcut_label_long_dynamic">Dynamic shortcut</string>
+    <string name="shortcut_message_disabled">This shortcut is no longer available!</string>
 
 </resources>

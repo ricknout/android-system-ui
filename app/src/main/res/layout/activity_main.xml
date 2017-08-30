@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.nickrout.systemui.MainActivity">
+    android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        tools:context="com.nickrout.systemui.MainActivity">
 
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            tools:src="@drawable/ic_enabled_black_48dp"
+            tools:ignore="contentDescription" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:text="ENABLED" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/button_enable"
+            android:onClick="addDynamicShortcut" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/button_disable"
+            android:onClick="disableDynamicShortcut" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/button_remove"
+            android:onClick="removeDynamicShortcut" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_pin"
+            android:onClick="pinDynamicShortcut" />
+
+    </LinearLayout>
+
+</ScrollView>
