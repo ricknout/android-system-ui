@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_static"
+        android:shortcutShortLabel="@string/shortcut_label_short_static"
+        android:shortcutLongLabel="@string/shortcut_label_long_static">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nickrout.systemui"
+            android:targetClass="com.nickrout.systemui.ShortcutActivity" />
+    </shortcut>
+
+</shortcuts>
